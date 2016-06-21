@@ -1,0 +1,25 @@
+{
+  "name": "template-webpack",
+  "version": "0.0.0",
+  "description": "template web app with npm and webpack",
+  "main": "index.html",
+  "scripts": {
+    "start": "opener http://localhost:9083 && webpack-dev-server --inline --host 0.0.0.0 --port 9083",
+    "build": "webpack"
+  },
+  "author": "dag.rende@find-out.se",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:FindOut/template-webpack.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "opener": "^1.4.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+  }
+}
